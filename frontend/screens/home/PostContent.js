@@ -4,7 +4,7 @@ import { useSelector, useDispatch } from "react-redux";
 
 import data from "../../assets/data/postdata.json.js";
 import Post from "./PostCard.js";
-import { updatePost } from "../../redux/reducers.js";
+import { updatePost } from "../../redux/reducers/reducers.js";
 
 export default function PostContent() {
   const [selectedPost, setSelected] = useState(null); // keep track of post that is pressed

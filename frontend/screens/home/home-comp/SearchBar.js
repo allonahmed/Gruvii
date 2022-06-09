@@ -5,7 +5,7 @@ import { useDispatch, useSelector } from "react-redux";
 
 import RNPickerSelect from "react-native-picker-select";
 import MaterialIcons from "react-native-vector-icons/MaterialIcons";
-import { updateFilter, updateQuery } from "../../../redux/reducers";
+import { updateFilter, updateQuery } from "../../../redux/reducers/reducers";
 
 const SearchBar = () => {
   const state = useSelector((state) => state.reduxStore);

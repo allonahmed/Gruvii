@@ -4,8 +4,8 @@ import {
   View,
   ImageBackground,
   SafeAreaView,
-  Button,
-  TouchableOpacity
+  TouchableOpacity,
+  Platform
 } from "react-native";
 import React from "react";
 import { NavigationContainer } from "@react-navigation/native";
